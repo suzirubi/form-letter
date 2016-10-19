@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Automatic Letter Generator</h1>
+
+<!-- Blank Form Section -->
+      <div id="blanks">
+        <div class="form-group">
+          <label for="adressee">Enter Your Name</label>
+          <input id="adressee" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="street">Enter Your Street Adress</label>
+          <input id="street" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="city">Enter Your City</label>
+          <input id="city" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="state">Enter Your State</label>
+          <input id="state" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="zip">Enter Your Zip Code</label>
+          <input id="zip" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Generate my letter!</button>
+
+      </div>
+
+<!-- Letter Section -->
+    <div class="letter">
+      
+      <h3 id="date"><!--Drops in today's date--></h3>
+      <p><span class="addressee"></span></p>
+      <p><span class="street"></span></p>
+      <p><span class="city"></span>,<span class="state"></span>  <span class="zip"></span></p>
+      <p></p>
+      <p></p>
+      <p>Dear <span></span>      </p>
+
+    </div>
+
+
+
+    </div>
+  </body>
+  <script src="js/scripts.js"></script>
+</html>
